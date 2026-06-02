@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.glass-bg {
+    position: relative;
+    background-color: #f8fafc;
+    z-index: 0;
+}
+
+.glass-bg::before,
+.glass-bg::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.glass-bg::before {
+    width: 50vw;
+    height: 50vw;
+    background: rgba(29, 78, 216, 0.15);
+    top: -10%;
+    left: -10%;
+}
+
+.glass-bg::after {
+    width: 40vw;
+    height: 40vw;
+    background: rgba(220, 38, 38, 0.1);
+    bottom: -10%;
+    right: -10%;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #94a3b8;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
