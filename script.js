@@ -64,7 +64,7 @@ const dadosUnidades = {
   jarinu: {
     nome: "Jarinu (Matriz)",
     razao: "NOVA CAPRETI DROGARIA LTDA - CNPJ: 17.299.654/0001-60",
-    telefone: "(11) 4354-2331",
+    telefone: "(11) 9435-42331",
     endereco: "Rua Napolis, 615 - Vila Nova Trieste, Jarinu - SP, CEP: 13.242-152",
     email: "novafarmatrieste@hotmail.com",
     linkMaps: "https://maps.google.com/?q=Rua+Napolis+615+Jarinu", 
