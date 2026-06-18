@@ -13,7 +13,7 @@ body {
 .glass-bg::before,
 .glass-bg::after {
     content: "";
-    position: absolute;
+    position: fixed;
     border-radius: 50%;
     filter: blur(100px);
     z-index: -1;
